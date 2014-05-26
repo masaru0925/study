@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+	<name>Message</name>
+	<queries>
+		<name>SAMPLE_QUERY1</name>
+	       <author>saiki</author>
+		<desc>
+			これはサンプルです
+		</desc>
+		<statement>
+			select * from
+			tab where a =
+			:param1 b = :param2
+		</statement>
+		<parameters>param1</parameters>
+		<parameters>param2</parameters>
+	</queries>
+	<queries>
+		<name>SAMPLE_QUERY2</name>
+	       <author>saiki</author>
+		<desc>
+			これはサンプルです
+		</desc>
+		<statement>
+			select * from
+			tab where a =
+			param1 = param2
+		</statement>
+	</queries>
+</entity>
